@@ -1,0 +1,34 @@
+Package: MSDRCapstone
+Title: Functions for Visualizing NOAA Earthquake Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Carson",
+           family = "Sprock",
+           role = c("aut", "cre"),
+           email = "csprock@gmail.com")
+Author: Carson Sprock [aut, cre]
+Maintainer: Carson Sprock <csprock@gmail.com>
+Description: Functions for visualizing NOAA earthquake data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    readr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    stringr,
+    lubridate,
+    grid,
+    magrittr,
+    rlang
+Depends:
+    ggplot2,
+    leaflet,
+    R (>= 2.10)
+Config/testthat/edition: 3
