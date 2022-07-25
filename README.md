@@ -1,8 +1,8 @@
 
-# MSDRCapstone
+# Package-Evaluation
 
 <!-- badges: start -->
-[![check-release](https://github.com/csprock/msdr_capstone/actions/workflows/check-release.yaml/badge.svg)](https://github.com/csprock/msdr_capstone/actions/workflows/check-release.yaml)
+[![check-release](https://github.com/ar-safari/Package-Evaluation/actions/workflows/check-release.yaml/badge.svg)](https://github.com/ar-safari/Package-Evaluation/actions/workflows/check-release.yaml)
 <!-- badges: end -->
 
 Completes the requirements for the "Mastering Software Development in R" Capstone project for Coursera. 
@@ -20,7 +20,7 @@ You can install the development version of MSDRCapstone from [GitHub](https://gi
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("csprock/msdr_capstone")
+devtools::install_github("ar-safari/Package-Evaluation")
 ```
 
 ## Sample Output
